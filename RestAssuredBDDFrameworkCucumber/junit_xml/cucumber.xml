@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="4.13274">
+<testcase classname="Test number of circuits for year 2017" name="Number of circuits test scenario" time="3.430276">
+<system-out><![CDATA[Given url for get request...................................................passed
+When user sends request.....................................................passed
+Then status code is 200.....................................................passed
+And size of circuit id is 20................................................passed
+And response headers includes the following.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="post request using resreq site" name="post a rest request api" time="0.702464">
+<system-out><![CDATA[Given post url for send request.............................................passed
+When user post request......................................................passed
+Then post request status code is 201........................................passed
+And post response body contains.............................................passed
+And post response headers contains..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
